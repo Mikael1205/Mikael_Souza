@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000E41;
+}
+dt{
+    font-family: "Playfair Display";
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 726px;
+}
+header ul{
+    font-size: 24px;
+    font-family: "Inter";
+    font-weight: 500;
+    justify-content: space-between;
+    width: 458px;
+    height: 31px;
+    position: absolute;
+    align-items: center;
+}
+h1{
+    font-family: "Lato";
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    margin-left: 164px;
+    margin-top: 52px;
+    
+}
+h4{
+    color: white;
+}
+p{
+    width: 422px;
+    color: white;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    top: 8px;
+}
+.logo{
+    width: 66px;
+    height: 64px;
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 31px;
+}
+header{
+    height: 148px;
+}
+h6{
+    background-color: #051493;
+    font-family: "Heebo";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 16px;
+    width: 176px;
+    height: 47px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+}
+aside h4{
+    font-size: 40px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    height: 52px;
+}
+aside{
+    width: 422px;
+    height: 270px;
+    margin-top: 101px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+sub{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    color: #A4A4A4;
+}
+.perfil{
+    position: absolute;
+    width: 628px;
+    height: 472px;
+    left: 620px;
+    top: 191px;
+}
+.what{
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 392px;
+    top: -43px;
+}
+.you{
+    position: absolute;
+    width: 137.62px;
+    height: 135.48px;
+    left: -20px;
+    top: 282px;
+}
+.face{
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    left: 20px;
+    top: 15px;
+}
+.insta{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 513px;
+    top: 244px;
+}
+.foto{
+    position: absolute;
+    width: 376px;
+    height: 441px;
+    left: 118px;
+    top: 68px;
+}
+.des{
+    position: absolute;
+    width: 1364px;
+    height: 336px;
+    top: 754px;
+}
+.desig{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1042px;
+    height: 294px;
+    left: 155px;
+    top: 1288px;
+}
+.cam{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1030px;
+    height: 274px;
+    left: 174px;
+    top: 1858px;
+}
+.rede{
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 28px;
+    position: absolute;
+    width: 298px;
+    left: 534px;
+    top: 2410px;
+}
+.acesso img{
+    width: 50px;
+    height: 50px;   
+}
+.acesso{
+    position: absolute;
+    width: 1143px;
+    top: 2450px;
+    margin: 0px -590px ;
+    display: flex;
+    height: 96px;
+}
+.acesso li{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 32px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 271px;
+    left: 44px;
+    top: 18px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 276px;
+    left: 395px;
+    top: 18px;
+}
+.tree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 314px;
+    left: 751px;
+    top: 23px;
+}
+a{
+    position: absolute;
+    width: 297px;
+    left: 535px;
+    top: 2600px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 21px;
+    margin-top: 39px;
+    color: white;
+}
+.linha{
+    position: absolute;
+    width: 1366px;
+    top: 2350px;
+}
+.desig dt{
+    margin-bottom: 92px;
+    margin-left: -50px;
+}
+.cam dt{
+    margin-bottom: 92px;
+    margin-left: -50px;
+}
+.de:hover{
+    color: #A4A4A4;
+}
+.le:hover{
+    color: #A4A4A4;
+}
+.te:hover{
+    color: #A4A4A4;
+}
